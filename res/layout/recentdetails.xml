@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <ScrollView android:id="@+id/ScrollView01"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		
+    <LinearLayout android:id="@+id/LinearLayout02"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+    
+    <TextView 
+        android:id="@+id/tvQueueName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="30dp"
+        android:text="" 
+    />
+    <TextView 
+        android:id="@+id/tvQueueDescription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="15dp"
+        android:text="" 
+    />
+    
+    <TextView 
+        android:id="@+id/tvQueueStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="15dp"
+        android:text="" 
+    />
+    
+    <TextView 
+        android:id="@+id/tvQueueIbu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="20dp"
+        android:text="" 
+    />
+    <TextView 
+        android:id="@+id/tvQueueAbv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="20dp"
+        android:text="" 
+    />
+    
+    <TextView 
+        android:id="@+id/tvWouldDrink"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="20dp"
+        android:text="" 
+    />
+    
+    <TextView 
+        android:id="@+id/tvComment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="20dp"
+        android:text="" 
+    />
+    
+    
+    </LinearLayout>
+    
+        
+        
+    
+    
+</ScrollView>
+    
+
+</LinearLayout>
